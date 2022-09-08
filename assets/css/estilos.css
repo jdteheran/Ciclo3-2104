@@ -1,0 +1,194 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #1a6a14;
+}
+
+header .logo, header .lista, header .buscador {
+    display: inline-block;
+}
+
+header .logo {
+    margin: 20px 0px 20px 350px;
+}
+
+header .logo img {
+    width: 300px;
+}
+
+header .lista {
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+header .lista ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+header .lista ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+header .buscador {
+    float: right;
+    margin: 50px 350px 0px 0px;
+}
+
+header .buscador a {
+    background: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+}
+
+nav {
+    margin: 0px 0px 60px 350px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #676767;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+section .titulo, section .articulos {
+    margin-left: 350px;
+}
+
+section .titulo {
+    margin: 30px 0px 35px 350px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+section .titulo .icono, section .titulo .lastest {
+    display: inline-block;
+}
+
+section .titulo .icono p {
+    margin: 0px;
+    background: #1a6a14;
+    padding: 8px 15px;
+    color: white;
+}
+
+section .titulo .lastest h3 {
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+
+section .articulos article .caratula, section .articulos article .descripcion {
+    display: inline-block;
+}
+
+section .articulos article .caratula img {
+    width: 120px;
+}
+
+section .articulos article .descripcion {
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+section .articulos article .descripcion .nombre h5 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section .articulos article .descripcion .chapter .capitulos ul {
+    padding: 0px;
+}
+
+section .articulos article .descripcion .chapter .capitulos ul li, section .articulos article .descripcion .fechas ul li {
+    list-style: none;
+}
+
+section .articulos article .descripcion .chapter .capitulos ul li {
+    margin-bottom: 15px;
+}
+
+section .articulos article .descripcion .chapter .capitulos ul li a {
+    text-decoration: none;
+    background: #ebebeb;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #6e6e6e;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+section .articulos article .descripcion .chapter .capitulos, section .articulos article .descripcion .fechas {
+    display: inline-block;
+}
+
+section .articulos article .descripcion .fechas ul {
+    padding: 0px;
+}
+
+footer {
+    -webkit-box-shadow: 0px -2px 5px 0px #e7e7e7;
+    -moz-box-shadow: 0px -2px 5px 0px #e7e7e7;
+    box-shadow: 0px -2px 5px 0px #e7e7e7;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+footer .lista {
+    margin: 10px 0px 10px 0px;
+}
+
+footer .lista ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer .lista ul li::after {
+    content: "|";
+    margin-left: 20px;
+    color: #494949;
+}
+
+footer .lista ul li:last-child::after {
+    content: "";
+}
+
+footer .lista ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #494949;
+    font-size: 14px;
+}
+
+footer .lista ul li:nth-child(2) a {
+    text-transform: capitalize;
+}
+
+footer .texto {
+    color: #cfcfcf;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 13px;
+}
